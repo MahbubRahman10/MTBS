@@ -1,0 +1,190 @@
+body{
+	    background: #FBFAF7;
+}
+
+
+.head object {
+	width:50%;
+	height:350px;
+    margin-left: 25%;
+}
+.title h1{
+	text-align: center;
+	color : #4a4a4a;;
+	font-style: 20px;
+	font-weight: bold;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.title h2{
+	text-align: center;
+	color : #4a4a4a;
+	font-size: 20px;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.title h3{
+	color:white;
+	margin-top: 20px;
+	text-align: center;
+}
+.title h3 span i{
+	color: white;
+}
+.title h3 span{
+	padding: 10px 10px; 
+	background: #4a4a4a;
+	color:white;
+	font-size: 15px;
+	border : 2px solid #eee;
+	margin-top: 20px;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.image{
+	margin-left:290px;
+	margin-right: 285px;
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+.image h2{
+	color : #4a4a4a;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-bottom: 1px solid #dbdbdb;
+}
+.image img{
+	
+	margin-top:20px;
+	height: 100px;
+	padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.description{
+	margin-left:290px;
+	margin-right: 285px;
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+.description h2{
+	color : #4a4a4a;
+	line-height: 2em;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-bottom: 1px solid #dbdbdb;
+}
+.description h3{
+	color : #4a4a4a;
+	font-size: 20px;
+	line-height: 1.7em;
+	padding: 20px 0px;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.req{
+	margin-left:290px;
+	margin-right: 285px;
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+.req h2{
+	color : #4a4a4a;
+	font-size: 20px;
+	line-height: 2em;
+	font-weight: bold;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-bottom: 1px solid #dbdbdb;
+}
+.req h3{
+	color : #4a4a4a;
+	font-size: 20px;
+	padding: 20px 25px;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.req li {
+    padding: 8px 0px;
+}
+
+
+.used{
+	margin-left:290px;
+	margin-right: 285px;
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+.used h2{
+	color : #4a4a4a;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-bottom: 1px solid #dbdbdb;
+}
+.used h3{
+	color : #4a4a4a;
+	font-size: 20px;
+	padding: 20px 0px;
+	font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/*  Media between 00 and 580  */
+@media (max-width:700px){  
+
+	.head object {
+		width:90%;
+		height:350px;
+		margin-left: 5%;
+	}
+	.description{
+		margin-left:5%;
+		margin-right: 0px;
+		margin-top: 15%;
+		margin-bottom: 5%;
+	}
+	.req{
+		margin-left:5%;
+		margin-right: 0px;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+
+
+}
+
+
+/*  Media between 00 and 580  */
+@media (min-width:701px) and (max-width:1200px){
+    
+	.description{
+		margin-left:5%;
+		margin-right: 0px;
+		margin-top: 15%;
+		margin-bottom: 5%;
+		background: red;
+	}
+	.req{
+		margin-left:5%;
+		margin-right: 0px;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+  
+
+}
+
+
+
+
+
+
+
+

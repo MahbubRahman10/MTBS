@@ -1,0 +1,17 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+
+</Files>
+
+
+
+ErrorDocument 403 /mvc/errors/error.php
+ErrorDocument 404 /mvc/errors/error.php
+ErrorDocument 405 /mvc/errors/error.php
+ErrorDocument 408 /mvc/errors/error.php
+ErrorDocument 500 /mvc/errors/error.php
+ErrorDocument 502 /mvc/errors/error.php
+ErrorDocument 504 /mvc/errors/error.php
+
+
