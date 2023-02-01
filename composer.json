@@ -3,6 +3,6 @@
         "nesbot/carbon": "^1.22",
         "facebook/graph-sdk": "^5.6",
         "stripe/stripe-php": "^5.9",
-        "dompdf/dompdf": "^0.8.2"
+        "dompdf/dompdf": "^2.0.2"
     }
 }
